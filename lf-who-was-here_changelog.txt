@@ -15,7 +15,7 @@
   * In den Sprachdateien entsprechend für "Anzeige Einstellungen" eine weitere Variable hinzugefügt.
 * Im ACP Modul gibt es nun für die Einstellung "Sortiere Benutzer nach:" einen Hinweis der darüber informiert, das eine Änderung dieser Einstellung erst für die nächste Aktualisierung in x Minuten gilt. Dabei wird x direkt aus der "Server-Konfiguration" bezogen: "Server-Last" > "Zeitspanne für die Online-Anzeige:".
   * Entsprechend die bestehende Variable in den Sprachdateien um diesen Hinweis ergänzt. Die Anzahl Minuten wird dabei über `%s` dynamisch eingefügt.
-* Weitere Dateibereinigung vorgenommen: 3 x index.html entfernt.
+* Weitere Dateibereinigung vorgenommen: 4 x index.html entfernt.
 * Ab dieser Version ist die Versionsprüfung im ACP eingerichtet. Alle Zugriffe finden diesbezüglich auf GitHub und über HTTPS statt.
 * Template-Änderungen: Ja
   * Neu: `index_body_birthday_block_before.html`
