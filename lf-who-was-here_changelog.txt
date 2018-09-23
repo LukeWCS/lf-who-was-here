@@ -15,8 +15,9 @@
   * In den Sprachdateien entsprechend für "Anzeige Einstellungen" eine weitere Variable hinzugefügt.
 * Im ACP Modul gibt es nun für die Einstellung "Sortiere Benutzer nach:" einen Hinweis der darüber informiert, das eine Änderung dieser Einstellung erst für die nächste Aktualisierung in x Minuten gilt. Dabei wird x direkt aus der "Server-Konfiguration" bezogen: "Server-Last" > "Zeitspanne für die Online-Anzeige:".
   * Entsprechend die bestehende Variable in den Sprachdateien um diesen Hinweis ergänzt. Die Anzahl Minuten wird dabei über `%s` dynamisch eingefügt.
+* Weitere Dateibereinigung vorgenommen: 3 x index.html entfernt.
 * Ab dieser Version ist die Versionsprüfung im ACP eingerichtet. Alle Zugriffe finden diesbezüglich über GitHub und per HTTPS statt.
-* Template-Änderungen: Ja.
+* Template-Änderungen: Ja
   * Neu: `index_body_birthday_block_before.html`
   * Geändert: -
   * Gelöscht: -
@@ -50,7 +51,7 @@
 * Eine weitere Funktion eingebaut, mit der die Position der WWH Ausgabe geändert werden kann, ohne die zuständige Template-Datei umbenennen zu müssen. Per Standard verhält sich diese Funktion wie WWH 1.2.2, die Ausgabe der WWH Daten erfolgt im Online/Statistik-Bereich also oben.
   * Im ACP Modul die Einstellungen um den Punkt "Position der Anzeige:" erweitert, mit dem die oben genannte Funktion gesteuert werden kann.
   * In den Sprachdateien für "Position der Anzeige:" entsprechende Variablen hinzugefügt.
-* Template-Änderungen: Ja. 
+* Template-Änderungen: Ja
   * Neu: `index_body_stat_blocks_after.html`
   * Geändert: `index_body_stat_blocks_before.html`
   * Gelöscht: -
